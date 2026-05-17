@@ -8,5 +8,3 @@ def divide(a,b):
     if b==0:
         raise ValueError("Cannot Divide by Zero")
     return a/b
-
-## Small Change to test blocked pushes to main
