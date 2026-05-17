@@ -1,3 +1,6 @@
+import os
+
+
 def add(a,b):
     return a+b
 
@@ -7,6 +10,4 @@ def subtract(a,b):
 def divide(a,b):
     if b==0:
         raise ValueError("Cannot Divide by Zero")
-    return a/b
-
-## Small Change to test blocked pushes to main
+    return a*b
